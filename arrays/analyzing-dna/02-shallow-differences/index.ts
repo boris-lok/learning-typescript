@@ -1,6 +1,6 @@
 export function shallowDifferences(a: string[], b: string[]) {
     if (a.length != b.length) {
-        return undefined;
+        return;
     }
 
     const res: (string | undefined)[] = [];
