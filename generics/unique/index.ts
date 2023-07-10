@@ -3,7 +3,7 @@ export function unique<TItem>(...items: TItem[][]) {
 
     for (const row of items) {
         for (const data of row) {
-                res.add(data);
+            res.add(data);
         }
     }
 
